@@ -7,6 +7,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.URL;
 
+/*
+This class saves picture via link to files/cat.jpg
+The picture link is added in AppRunner class
+ */
+
 public class ImageReader {
 	private static final String MAIN_DIR = System.getProperty("user.dir");
 	private static final String SEPARATOR = System.getProperty("file.separator");
